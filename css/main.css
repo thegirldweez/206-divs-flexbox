@@ -101,13 +101,12 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
 
   background: #9bbfc5;
- 
 }
 
 .wrapper {
@@ -115,42 +114,40 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 50px 0;
- 
 
-   flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 header,
 footer {
   padding: 0 25px;
   display: flex;
-  justify-content: flex-start;
- 
+  width: 100%;
 }
 
 header h1 {
-    font-size: 5rem;
-    margin: 0;
-    padding-bottom: 25px;
-    color: #0790a8;
+  font-size: 5rem;
+  margin: 0;
+  padding-bottom: 25px;
+  color: #0790a8;
 }
 header span {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 1.5em;
-    font-weight: 700;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.5em;
+  font-weight: 700;
 }
 
 main {
   padding: 0 25px 25px;
-   display: flex;
-   justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 
-   font-family: 'Oswald';
-   color: #333333;
+  font-family: "Oswald";
+  color: #333333;
 }
 
 main h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .div-1,
@@ -163,13 +160,11 @@ main h2 {
   padding: 0 25px;
   height: 250px;
   width: 30%;
-  
 
-   display: flex;
-   justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-
 }
 
 .div-2 {
@@ -178,10 +173,17 @@ main h2 {
 }
 
 div span {
-    text-transform: uppercase;
-    color: #0790a8;
-    font-weight: 700;
-    font-size: .8em;
+  text-transform: uppercase;
+  color: #0790a8;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+footer {
+  justify-content: center;
+  padding-top: 50px;
+
+  font-size: 1rem;
 }
 
 /* ==========================================================================
